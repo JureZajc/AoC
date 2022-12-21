@@ -1,4 +1,6 @@
-file = open("2015/inputs/day2.txt", "r")
+import os
+
+file = open(os.path.dirname(__file__) + "/../inputs/day2.txt", "r")
 input = file.read()
 if input[-1] == "\n":
     input = input[:-1]

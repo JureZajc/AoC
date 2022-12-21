@@ -1,4 +1,6 @@
-file = open("inputs/day1.txt", "r")
+import os
+
+file = open(os.path.dirname(__file__) + "/../inputs/day1.txt", "r")
 input = file.read()
 file.close()
 
